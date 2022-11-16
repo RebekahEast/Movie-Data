@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: pink;
+    background-color: rgb(192, 236, 255);
     background-image: url('pictures/movies.jpeg');
     background-repeat: repeat;
     background-attachment: fixed;
@@ -12,12 +12,13 @@ body {
 }
 
 .box{
-    background-color: rgb(152, 153, 153);
-    color: rgb(0, 0, 0);
-    border: 5px solid rgba(255, 219, 233, 255);
+    background-color: rgb(198, 198, 198);
+    color: rgb(22, 76, 99);
+    border: 5px solid ;
     margin-top: 100px;
     margin-bottom:100px;
     margin-right: 10%;
     margin-left: 10%;
-    padding: 5%;
+    padding: 4%;
+    line-height: 1.6em;
 }
