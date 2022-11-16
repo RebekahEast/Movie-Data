@@ -1,3 +1,23 @@
+* {
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+}
+
 body {
-    color: ;
+    background-color: pink;
+    background-image: url('pictures/movies.jpeg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: auto;
+}
+
+.box{
+    background-color: rgb(152, 153, 153);
+    color: rgb(0, 0, 0);
+    border: 5px solid rgba(255, 219, 233, 255);
+    margin-top: 100px;
+    margin-bottom:100px;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 5%;
 }
