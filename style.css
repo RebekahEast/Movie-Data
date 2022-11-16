@@ -11,7 +11,7 @@ body {
     background-size: auto;
 }
 
-.box{
+.box {
     background-color: rgb(198, 198, 198);
     color: rgb(22, 76, 99);
     border: 5px solid ;
@@ -19,6 +19,6 @@ body {
     margin-bottom:100px;
     margin-right: 10%;
     margin-left: 10%;
-    padding: 4%;
-    line-height: 1.6em;
+    padding: 1% 5% 1% 5%;
+    line-height: 1.5em;
 }
