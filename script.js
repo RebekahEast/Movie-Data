@@ -34,7 +34,13 @@ let movieData = {
     },
   };
 
-  document.getElementById("demo").innerHTML = movieData["Fantastic Mr. Fox"].rating;
+  document.getElementById("Darjeeling").innerHTML = 
+  "PLOT: " + movieData["The Darjeeling Limited"].plot + " " + "<br />" + "<br />" + 
+  "RATING: " + movieData["The Darjeeling Limited"].rating + " " + "<br />" + "<br />" + 
+  "YEAR: " + movieData["The Darjeeling Limited"].year + " " + "<br />" + "<br />" + 
+  "CAST: " + movieData["The Darjeeling Limited"].cast + " " + "<br />" + "<br />" + 
+  "RUNTIME: " + movieData["The Darjeeling Limited"].runtime + " minutes"; //how to get gaps in cast?
+
 
 // alert(movieData) //https://www.freecodecamp.org/news/object-object-in-javascript-meaning-in-js/ alert(JSON.stringify(movieData));
 

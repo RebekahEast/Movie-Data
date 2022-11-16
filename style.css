@@ -22,3 +22,15 @@ body {
     padding: 1% 5% 1% 5%;
     line-height: 1.5em;
 }
+
+.Darjeeling {
+    background-color: rgb(198, 198, 198);
+    color: rgb(22, 76, 99);
+    border: 5px solid ;
+    margin-top: 100px;
+    margin-bottom:100px;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 1% 5% 1% 5%;
+    line-height: 1.5em;
+}
