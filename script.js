@@ -35,6 +35,7 @@ let movieData = {
   };
 
   document.getElementById("Darjeeling").innerHTML = 
+  //how to print the object's title name
   "PLOT: " + movieData["The Darjeeling Limited"].plot + " " + "<br />" + "<br />" + 
   "RATING: " + movieData["The Darjeeling Limited"].rating + " " + "<br />" + "<br />" + 
   "YEAR: " + movieData["The Darjeeling Limited"].year + " " + "<br />" + "<br />" + 
