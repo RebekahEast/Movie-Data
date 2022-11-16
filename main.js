@@ -34,7 +34,7 @@ let movieData = {
     },
   };
 
-  document.getElementById("demo").innerHTML = movieData["The Darjeeling Limited"].plot + " " + rating;
-  
+  document.getElementById("demo").innerHTML = movieData["Fantastic Mr. Fox"].rating;
+
 // alert(movieData) //https://www.freecodecamp.org/news/object-object-in-javascript-meaning-in-js/ alert(JSON.stringify(movieData));
 
