@@ -33,3 +33,8 @@ let movieData = {
       cast: ["Ralph Fiennes", "F. Murray Abraham", "Mathieu Amalric"],
     },
   };
+
+  document.getElementById("demo").innerHTML = movieData["The Darjeeling Limited"].plot + " " + rating;
+  
+// alert(movieData) //https://www.freecodecamp.org/news/object-object-in-javascript-meaning-in-js/ alert(JSON.stringify(movieData));
+
