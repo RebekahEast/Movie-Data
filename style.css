@@ -21,6 +21,7 @@ body {
     margin-left: 10%;
     padding: 1% 5% 1% 5%;
     line-height: 1.5em;
+    border-radius: 50px;
 }
 
 .panel {
@@ -33,4 +34,30 @@ body {
     margin-left: 10%;
     padding: 1% 5% 1% 5%;
     line-height: 1.5em;
+}
+
+.container {
+    display:flex;
+    width:auto;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.panel {
+    background-size: 0px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 50px;
+    flex:1;
+    position: relative;
+    transition: flex 0.5 ease-in;
+    color: rgb(22, 76, 99);
+    cursor:pointer;
+    margin: 10px;
+}
+
+.panel.active {
+    flex: 2;
+    background-size: cover;
 }
