@@ -1,5 +1,5 @@
 * {
-    font-family: 'Franklin Gothic Medium';
+    font-family:fantasy;
     text-align: center;
 }
 
@@ -28,18 +28,6 @@ p {
     border-radius: 50px;
 }
 
-.panel {
-    background-color: rgb(198, 198, 198);
-    color: rgb(22, 76, 99);
-    border: 5px solid ;
-    margin-top: 100px;
-    margin-bottom:100px;
-    margin-right: 10%;
-    margin-left: 10%;
-    padding: 1% 5% 1% 5%;
-    line-height: 1.5em;
-}
-
 .container {
     display:flex;
     width:auto;
@@ -48,27 +36,28 @@ p {
 }
 
 .panel {
+    background-color: rgb(198, 198, 198);
+    color: rgb(22, 76, 99);
+    border: 5px solid ;
+    line-height: 1.5em;
     background-size: 0px;
     background-repeat: no-repeat;
-    height: auto;
     border-radius: 50px;
-    flex:1;
+    flex: 2;
     position: relative;
     transition: flex 0.5 ease-in;
     color: rgb(22, 76, 99);
-    cursor:pointer;
-    margin: 10px;
+    cursor:zoom-in;
+    margin: 30px;
     opacity: 0.85;
     padding: 5% 2% 5% 2%;
 }
 
 .panel.active {
-    flex: 3;
-    background-size: cover;
-    background-position: center;
+    flex: 6;
+    background-size: 50%;
+    background-position: bottom;
     opacity: 1;
-    font-size: 25px
-    
+    font-size: 20px;
+    padding: 5% 2% 200px 2%;
 }
-
-
