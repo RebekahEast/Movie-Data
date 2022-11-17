@@ -35,7 +35,7 @@ let movieData = {
   };
 
   document.getElementById("Darjeeling").innerHTML = 
-  //how to print the object's title name
+  "The Darjeeling Limited" + "<br />" + "<br />" +
   "PLOT: " + movieData["The Darjeeling Limited"].plot + " " + "<br />" + "<br />" + 
   "RATING: " + movieData["The Darjeeling Limited"].rating + " " + "<br />" + "<br />" + 
   "YEAR: " + movieData["The Darjeeling Limited"].year + " " + "<br />" + "<br />" + 
@@ -43,7 +43,7 @@ let movieData = {
   "RUNTIME: " + movieData["The Darjeeling Limited"].runtime + " minutes"; //how to get gaps in cast? I just added a space above to all the cast names
 
   document.getElementById("Tenenbaums").innerHTML = 
-  //how to print the object's title name
+  "The Royal Tenenbaums" + "<br />" + "<br />" +
   "PLOT: " + movieData["The Royal Tenenbaums"].plot + " " + "<br />" + "<br />" + 
   "RATING: " + movieData["The Royal Tenenbaums"].rating + " " + "<br />" + "<br />" + 
   "YEAR: " + movieData["The Royal Tenenbaums"].year + " " + "<br />" + "<br />" + 
@@ -51,7 +51,7 @@ let movieData = {
   "RUNTIME: " + movieData["The Royal Tenenbaums"].runtime + " minutes"; 
 
   document.getElementById("Fantastic").innerHTML = 
-  //how to print the object's title name
+  "Fantastic Mr. Fox" + "<br />" + "<br />" +
   "PLOT: " + movieData["Fantastic Mr. Fox"].plot + " " + "<br />" + "<br />" + 
   "RATING: " + movieData["Fantastic Mr. Fox"].rating + " " + "<br />" + "<br />" + 
   "YEAR: " + movieData["Fantastic Mr. Fox"].year + " " + "<br />" + "<br />" + 
@@ -59,7 +59,7 @@ let movieData = {
   "RUNTIME: " + movieData["Fantastic Mr. Fox"].runtime + " minutes"; 
 
   document.getElementById("Budapest").innerHTML = 
-  //how to print the object's title name
+  "The Grand Budapest Hotel" + "<br />" + "<br />" +
   "PLOT: " + movieData["The Grand Budapest Hotel"].plot + " " + "<br />" + "<br />" + 
   "RATING: " + movieData["The Grand Budapest Hotel"].rating + " " + "<br />" + "<br />" + 
   "YEAR: " + movieData["The Grand Budapest Hotel"].year + " " + "<br />" + "<br />" + 
