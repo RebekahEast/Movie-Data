@@ -39,15 +39,14 @@ body {
 .container {
     display:flex;
     width:auto;
-    height: auto;
+    height: 100px;
     flex-wrap: wrap;
 }
 
 .panel {
     background-size: 0px;
-    background-position: bottom;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: auto;
     border-radius: 50px;
     flex:1;
     position: relative;
@@ -55,9 +54,13 @@ body {
     color: rgb(22, 76, 99);
     cursor:pointer;
     margin: 10px;
+    opacity: 0.85;
+    padding: 5% 2% 5% 2%;
 }
 
 .panel.active {
-    flex: 2;
+    flex: 3;
     background-size: cover;
+    background-position: center;
+    opacity: 1;
 }
