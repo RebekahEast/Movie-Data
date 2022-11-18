@@ -30,6 +30,15 @@ p {
     border-radius: 50px;
 }
 
+form {
+    display: flex;
+    flex: 10;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
 .container {
     display:flex;
     width:auto;
