@@ -66,7 +66,7 @@ let movieData = {
   "CAST: " + movieData["Fantastic Mr. Fox"].cast + " " + "<br />" + "<br />" + 
   "RUNTIME: " + movieData["Fantastic Mr. Fox"].runtime + " minutes"; 
 
-  // how to print the titles?
+  // how to print the titles? I've written them out
 
   const panels = document.querySelectorAll('.panel')
 
