@@ -33,11 +33,10 @@ p {
 form {
     display: flex;
     justify-content: center;
-    flex-direction: row;
-}
-
-.input {
+    flex-direction: column;
+    align-content: stretch;
     font-size: 20px;
+
 }
 
 .container {
@@ -45,6 +44,11 @@ form {
     width:auto;
     height: 100px;
     flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#words {
+    padding: 20px;
 }
 
 .panel {
@@ -73,4 +77,3 @@ form {
     font-size: 20px;
     padding: 5% 2% 230px 2%;
 }
-
