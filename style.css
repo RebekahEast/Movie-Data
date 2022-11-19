@@ -31,13 +31,25 @@ p {
 }
 
 input {
+    width: 20%;
+    border: 2px solid rgb(22, 76, 99);
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 12px 30px;
+    margin: 8px 20px;
+    font-size: 20px;
+  }
+
+  textarea {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 2px solid rgb(22, 76, 99);
     border-radius: 4px;
     box-sizing: border-box;
+    font-size: 20px;
+
   }
 
 .container {
