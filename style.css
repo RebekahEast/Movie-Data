@@ -30,6 +30,19 @@ p {
     border-radius: 50px;
 }
 
+#responses {
+    background-color: rgb(198, 198, 198);
+    color: rgb(22, 76, 99);
+    border: 5px solid ;
+    margin-top: 50px;
+    margin-bottom:50px;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 1% 5% 1% 5%;
+    line-height: 2em;
+    border-radius: 50px;
+}
+
 input {
     width: 40%;
     border: 2px solid rgb(22, 76, 99);
