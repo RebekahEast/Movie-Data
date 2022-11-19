@@ -82,3 +82,27 @@ let movieData = {
           panel.classList.remove('active')
       })
   }
+
+
+var form = document.getElementById("input");
+
+form.addEventListener('submit', function(event){ 
+    event.preventDefault(); 
+    var title = document.getElementById("cast").value;
+    var cast = document.getElementById("cast").value;
+    var year = document.getElementById("year");
+    var plot = document.getElementById("plot").value;
+    let rating = document.getElementById("rating").value;
+    let display_comment = document.createElement("p");
+    
+    console.log(title);
+    console.log(cast);
+    console.log(year);
+    console.log(plot);
+    console.log(rating);
+
+    display_comment.innerHTML = "hello" + title; 
+    responses.appendChild(display_comment);
+
+    event.target.reset() 
+})
