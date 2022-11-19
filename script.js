@@ -88,7 +88,7 @@ var form = document.getElementById("input");
 
 form.addEventListener('submit', function(event){ 
     event.preventDefault(); 
-    var title = document.getElementById("cast").value;
+    var title = document.getElementById("name").value;
     var cast = document.getElementById("cast").value;
     var year = document.getElementById("year");
     var plot = document.getElementById("plot").value;
@@ -101,7 +101,7 @@ form.addEventListener('submit', function(event){
     console.log(plot);
     console.log(rating);
 
-    display_comment.innerHTML = "hello" + title; 
+    display_comment.innerHTML = title + "<br>" + "<br>" + "PLOT: " + plot + "<br>" + "<br>" + "RATING: " + rating + "<br>" + "<br>" + "YEAR: " + year + "<br>" + "<br>" + "CAST" + cast + "<br>" + "<br>" + "RUNTIME: " + runtime + " minutes"; 
     responses.appendChild(display_comment);
 
     event.target.reset() 
