@@ -30,14 +30,15 @@ p {
     border-radius: 50px;
 }
 
-form {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-content: stretch;
-    font-size: 20px;
-
-}
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
 
 .container {
     display:flex;
@@ -49,6 +50,7 @@ form {
 
 #words {
     padding: 20px;
+    margin: 0 auto;
 }
 
 .panel {
