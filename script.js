@@ -85,6 +85,8 @@ let movieData = {
 
 
 var form = document.getElementById("input");
+const targetDiv = document.getElementById("test");
+
 
 form.addEventListener('submit', function(event){ 
     event.preventDefault(); 
@@ -106,3 +108,11 @@ form.addEventListener('submit', function(event){
 
     event.target.reset() 
 })
+
+btn.onclick = function () {
+  if (targetDiv.style.display !== "none") {
+    targetDiv.style.display = "none";
+  } else {
+    targetDiv.style.display = "block";
+  }
+}
