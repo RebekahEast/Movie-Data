@@ -92,18 +92,21 @@ form.addEventListener('submit', function(event){
     event.preventDefault(); 
     var title = document.getElementById("name").value;
     var cast = document.getElementById("cast").value;
-    var year = document.getElementById("year");
+    var year = document.getElementById("year").value;
+    var runtime = document.getElementById("runtime").value;
     var plot = document.getElementById("plot").value;
     let rating = document.getElementById("rating").value;
     let display_comment = document.createElement("p");
     
+    // I just realised I missed out year on the form and didn't have a space for runtime lol! 
+
     console.log(title);
     console.log(cast);
     console.log(year);
     console.log(plot);
     console.log(rating);
 
-    display_comment.innerHTML = title + "<br>" + "<br>" + "PLOT: " + plot + "<br>" + "<br>" + "RATING: " + rating + "<br>" + "<br>" + "YEAR: " + year + "<br>" + "<br>" + "CAST" + cast + "<br>" + "<br>" + "RUNTIME: " + runtime + " minutes"; 
+    display_comment.innerHTML = title + "<br>" + "<br>" + "PLOT: " + plot + "<br>" + "<br>" + "RATING: " + rating + "<br>" + "<br>" + "YEAR: " + year + "<br>" + "<br>" + "CAST: " + cast + "<br>" + "<br>" + "RUNTIME: " + runtime + " minutes"; 
     responses.appendChild(display_comment);
 
     event.target.reset() 
@@ -113,7 +116,5 @@ function test(){
   var div_submitted = document.getElementById('testing');
   if (div_submitted.style.display == 'none') {
     div_submitted.style.display = 'block';
-  } else {
-    div_submitted.style.display = 'none';
   }
 }
