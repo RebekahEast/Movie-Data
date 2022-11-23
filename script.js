@@ -109,10 +109,11 @@ form.addEventListener('submit', function(event){
     event.target.reset() 
 })
 
-btn.onclick = function () {
-  if (targetDiv.style.display !== "none") {
-    targetDiv.style.display = "none";
+function test(){
+  var div_submitted = document.getElementById('testing');
+  if (div_submitted.style.display == 'none') {
+    div_submitted.style.display = 'block';
   } else {
-    targetDiv.style.display = "block";
+    div_submitted.style.display = 'none';
   }
 }
