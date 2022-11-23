@@ -40,7 +40,7 @@ let movieData = {
   "RATING: " + movieData["The Darjeeling Limited"].rating + " " + "<br />" + "<br />" + 
   "YEAR: " + movieData["The Darjeeling Limited"].year + " " + "<br />" + "<br />" + 
   "CAST: " + movieData["The Darjeeling Limited"].cast + " " + "<br />" + "<br />" + 
-  "RUNTIME: " + movieData["The Darjeeling Limited"].runtime + " minutes"; //how to get gaps in cast? I just added a space above to all the cast names
+  "RUNTIME: " + movieData["The Darjeeling Limited"].runtime + " minutes"; 
 
   document.getElementById("Tenenbaums").innerHTML = 
   "The Royal Tenenbaums" + "<br />" + "<br />" +
@@ -65,8 +65,6 @@ let movieData = {
   "YEAR: " + movieData["The Grand Budapest Hotel"].year + " " + "<br />" + "<br />" + 
   "CAST: " + movieData["Fantastic Mr. Fox"].cast + " " + "<br />" + "<br />" + 
   "RUNTIME: " + movieData["Fantastic Mr. Fox"].runtime + " minutes"; 
-
-  // how to print the titles? I've written them out
 
   const panels = document.querySelectorAll('.panel')
 
@@ -97,8 +95,6 @@ form.addEventListener('submit', function(event){
     var plot = document.getElementById("plot").value;
     let rating = document.getElementById("rating").value;
     let display_comment = document.createElement("p");
-    
-    // I just realised I missed out year on the form and didn't have a space for runtime lol! 
 
     console.log(title);
     console.log(cast);
