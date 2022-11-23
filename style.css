@@ -94,7 +94,7 @@ input {
 
 .panel.active {
     flex: 6;
-    background-size: 50%;
+    background-size: 40%;
     background-position: bottom;
     opacity: 1;
     font-size: 20px;
