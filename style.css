@@ -63,8 +63,6 @@ input {
 
 .container {
     display:flex;
-    width:auto;
-    height: 100px;
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -80,7 +78,7 @@ input {
     border: 5px solid ;
     line-height: 1.5em;
     border-radius: 50px;
-    flex: 10%;
+    flex: 5%;
     transition: flex 0.5 ease-in;
     color: rgb(22, 76, 99);
     cursor:zoom-in;
@@ -90,7 +88,7 @@ input {
 }
 
 .panel.active {
-    flex: 40%;
+    flex: 10%;
     flex-wrap: wrap;
     opacity: 1;
     justify-content: center;
