@@ -67,6 +67,8 @@ let movieData = {
   "RUNTIME: " + movieData["Fantastic Mr. Fox"].runtime + " minutes"; 
 
   const panels = document.querySelectorAll('.panel')
+  const box = document.createElement("div");
+  box.class = "panel";
 
   panels.forEach(panel => {
       panel.addEventListener('click', () => {
@@ -76,14 +78,14 @@ let movieData = {
   })
   
   function removeActiveClasses() {
-      panels.forEach(panel => {
-          panel.classList.remove('active')
-      })
+    const all_panels = document.querySelectorAll('.panel')
+    all_panels.forEach(panel => {
+      panel.classList.remove('active')
+    })
   }
 
 
 var form = document.getElementById("input");
-const targetDiv = document.getElementById("test");
 
 
 form.addEventListener('submit', function(event){ 
@@ -94,7 +96,8 @@ form.addEventListener('submit', function(event){
     var runtime = document.getElementById("runtime").value;
     var plot = document.getElementById("plot").value;
     let rating = document.getElementById("rating").value;
-    let display_comment = document.createElement("p");
+    let display_comment = document.createElement("div");
+    display_comment.className = 'panel';
 
     console.log(title);
     console.log(cast);
@@ -103,14 +106,26 @@ form.addEventListener('submit', function(event){
     console.log(rating);
 
     display_comment.innerHTML = title + "<br>" + "<br>" + "PLOT: " + plot + "<br>" + "<br>" + "RATING: " + rating + "<br>" + "<br>" + "YEAR: " + year + "<br>" + "<br>" + "CAST: " + cast + "<br>" + "<br>" + "RUNTIME: " + runtime + " minutes"; 
-    responses.appendChild(display_comment);
+ 
+    console.log(display_comment);
+
+    var container = document.getElementById("container");
+    
+    container.appendChild(display_comment);
+
+    display_comment.addEventListener('click', () => {
+      removeActiveClasses()
+      display_comment.classList.add('active')
+  })
 
     event.target.reset() 
 })
 
-function test(){
-  var div_submitted = document.getElementById('testing');
+
+function appending_comment(){
+  var div_submitted = document.getElementById('created_div');
   if (div_submitted.style.display == 'none') {
     div_submitted.style.display = 'block';
+    document.body.appendChild(box);
   }
 }

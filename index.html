@@ -38,20 +38,17 @@
         <label for="plot" class="label"></label>
         <textarea id="plot" class="input" placeholder="Plot"></textarea><br>
 
-        <input type="submit" id="send" value="submit" onclick="test()">
+        <input type="submit" id="send" value="submit" onclick="appending_comment()">
     </div>
 </form> 
 
-<div class="container">
-    <div id = "testing" class = "panel" STYLE="display:none">
-        <p id = "responses"></p> 
-    </div>
-    <!-- how can I add the append child to the flexbox? -->
+<div class="container" id="container">
     <div id = "Darjeeling" class ="panel active"></div>
     <div id = "Tenenbaums" class="panel"></div>
     <div id = "Fantastic" class ="panel"></div>
     <div id = "Budapest" class="panel"></div>
 </div>
+
 
 <script src= "script.js"></script>
 
