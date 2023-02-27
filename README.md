@@ -12,4 +12,5 @@
 
 <h3 align = "center"><b>Thing's I'd love to improve on</h3></b>
 <p align = "center">1. I think the way I presented the data was wrong and instead should have been by recalling the variables of each movie. Without this, I couldn't have the user edit the data on the page<br><br>
-2. I would have liked the boxes to appear smaller and in a better format than they do right now - it looks too large and chunky</p>
+2. I would have liked the boxes to appear smaller and in a better format than they do right now - it looks too large and chunky
+3. form validation</p>
