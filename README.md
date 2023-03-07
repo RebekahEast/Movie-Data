@@ -11,6 +11,6 @@
 <p align = "center">With this project, I took ideas from different projects of mine to make something bigger with it. I used flexbox, and then click panels from different projects, and the comment box, to bring it all together onto one page.</p><br>
 
 <h3 align = "center"><b>Thing's I'd love to improve on</h3></b>
-<p align = "center">1. I think the way I presented the data was wrong and instead should have been by recalling the variables of each movie. Without this, I couldn't have the user edit the data<br><br>
-2. I cannot work out how to have a separate div for submission, hence why currently if more than one is submitted, it'll go under the text of the first one. I think this can be done by creating a new div each time (like the p) but then I wouldn't know how to make sure it was given the class panel<br><br>
-3. The picture looks weird when you reduce the screen size. In an ideal world, I wanted the image to cover the panel and then have it be slightly opaque, however when I did this, it made the text opaque too</p>
+<p align = "center">1. Instead of recalling the array one by one, I would have liked to recall like the way I do on the webiste (pets page)<br><br>
+2. I would have liked the boxes to appear smaller and in a better format than they do right now - it looks too large and chunky<br><br>
+3. form validation</p>
