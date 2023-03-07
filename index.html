@@ -19,18 +19,18 @@
 <form id = "input" class="box input">
     <h2>Submit your own movie choices here!</h2>
     <div>
-        <input type="name" id="name" class="input" placeholder="Movie Name">
+        <input type="name" id="name" class="input" placeholder="Movie Name" required>
 
-        <input type="cast" id="cast" class="input" placeholder="Cast">
+        <input type="cast" id="cast" class="input" placeholder="Cast" required>
 
-        <input type="runtime" id="runtime" class="input" placeholder="Runtime"> 
+        <input type="runtime" id="runtime" class="input" placeholder="Runtime" required> 
 
-        <input type="year" id="year" class="input" placeholder="Year"> 
+        <input type="year" id="year" class="input" placeholder="Year" required> 
 
-        <input type="rating" id="rating" class="input" placeholder="Rating"><br>
+        <input type="rating" id="rating" class="input" placeholder="Rating" required><br>
     </div>
     <div id = "words">
-        <textarea id="plot" class="input" placeholder="Plot"></textarea><br>
+        <textarea id="plot" class="input" placeholder="Plot" required></textarea><br>
 
         <input type="submit" id="send" value="submit" onclick="appending_comment()">
     </div>
