@@ -161,7 +161,9 @@ function appending_comment(){
 //   return comparison;
 // }
 
-// movieData.sort(compare);
-// console.log(movieData.sort(compare));
 
-movieData.sort((a, b) => a.rating - b.rating);
+
+// movieData.sort((a, b) => a.rating - b.rating);
+
+const movieDataArray = Object.entries(movieData);
+console.log(movieDataArray.sort());
