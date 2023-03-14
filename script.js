@@ -148,15 +148,19 @@ function appending_comment(){
 // console.log("moviedata sorted based on descending order of their rating are:")
 // console.log(sortedMovieData);
 
-let sortedMovieData = movieData.slice();
+function compare(a, b) {
+  // Use toUpperCase() to ignore character casing
+  const Moviea = a.rating;
+  const Movieb = b.rating;
 
-// Sort the copy in descending order based on the rating property
-sortedMovieData.sort((a, b) => b.rating - a.rating);
+  let comparison = 0;
+  if (Moviea > Movieb) {
+    comparison = 1;
+  } else if (Moviea < Movieb) {
+    comparison = -1;
+  }
+  return comparison;
+}
 
-// Print the sorted copy
-console.log("Movie data sorted based on descending order of their rating are:");
-console.log(sortedMovieData);
-
-// Print the original array to show that it is unchanged
-console.log("Original movie data array:");
-console.log(movieData);
+movieData.sort(compare);
+console.log(movieData.sort(compare));
