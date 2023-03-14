@@ -130,3 +130,13 @@ function appending_comment(){
   }
 }
 
+// document.getElementById("alphabetical").innerHTML = movieData.sort();
+
+// const result = movieData.sort();
+// console.log(result);
+
+if(Array.isArray(movieData)){
+    movieData.sort();
+}else{
+    console.log("Given data is not an array")
+}
