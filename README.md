@@ -14,3 +14,10 @@
 <p align = "center">1. Instead of recalling the array one by one, I would have liked to recall like the way I do on the webiste (pets page)<br><br>
 2. I would have liked the boxes to appear smaller and in a better format than they do right now - it looks too large and chunky<br><br>
 3. form validation</p>
+
+14/3/23
+- okay digging into this code I see a fair amount of issues going on. 
+- 1. I shouldn't have written each one out how I did, instead I should have pulled the data through the array somehow and had less text in the JS file
+- 2. because of the above, when I try to change the page based on the alphabet, it means I cannot change the way it looks on the site.
+- 3. the appending comment isn't adding it to the array, so when I try to include this in the 'display alphabetically' it's not working
+- 4. when I use a workaround to show the code in order, it shows [object object]
