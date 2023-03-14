@@ -141,9 +141,22 @@ function appending_comment(){
 //     console.log("Given data is not an array")
 // }
 
-console.log(movieData);
-let sortedMovieData = movieData.sort(
-    (p1, p2) => (p1.rating < p2.rating) ? 1 : (p1.rating > p2.rating) ? -1 : 0);
+// console.log(movieData);
+// let sortedMovieData = movieData.sort(
+//     (p1, p2) => (p1.rating < p2.rating) ? 1 : (p1.rating > p2.rating) ? -1 : 0);
 
-console.log("moviedata sorted based on descending order of their rating are:")
+// console.log("moviedata sorted based on descending order of their rating are:")
+// console.log(sortedMovieData);
+
+let sortedMovieData = movieData.slice();
+
+// Sort the copy in descending order based on the rating property
+sortedMovieData.sort((a, b) => b.rating - a.rating);
+
+// Print the sorted copy
+console.log("Movie data sorted based on descending order of their rating are:");
 console.log(sortedMovieData);
+
+// Print the original array to show that it is unchanged
+console.log("Original movie data array:");
+console.log(movieData);
