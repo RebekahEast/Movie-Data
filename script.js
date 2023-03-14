@@ -130,40 +130,15 @@ function appending_comment(){
   }
 }
 
-// document.getElementById("alphabetical").innerHTML = movieData.sort();
 
-// const result = movieData.sort();
-// console.log(result);
-
-// if(Array.isArray(movieData)){
-//     movieData.sort();
-// }else{
-//     console.log("Given data is not an array")
-// }
-
-// console.log(movieData);
-// let sortedMovieData = movieData.sort(
-//     (p1, p2) => (p1.rating < p2.rating) ? 1 : (p1.rating > p2.rating) ? -1 : 0);
-
-// console.log("moviedata sorted based on descending order of their rating are:")
-// console.log(sortedMovieData);
-
-// function compare(a, b) {
-//   const Moviea = a.rating;
-//   const Movieb = b.rating;
-
-//   let comparison = 0;
-//   if (Moviea > Movieb) {
-//     comparison = 1;
-//   } else if (Moviea < Movieb) {
-//     comparison = -1;
-//   }
-//   return comparison;
-// }
 
 
 
 // movieData.sort((a, b) => a.rating - b.rating);
 
-const movieDataArray = Object.entries(movieData);
-console.log(movieDataArray.sort());
+
+function displayMoviesTitleInOrder () {
+  const movieDataArray = Object.entries(movieData);
+  console.log(movieDataArray.sort());
+};
+// this consoles the array in order alphabetically
