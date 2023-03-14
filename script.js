@@ -148,19 +148,20 @@ function appending_comment(){
 // console.log("moviedata sorted based on descending order of their rating are:")
 // console.log(sortedMovieData);
 
-function compare(a, b) {
-  // Use toUpperCase() to ignore character casing
-  const Moviea = a.rating;
-  const Movieb = b.rating;
+// function compare(a, b) {
+//   const Moviea = a.rating;
+//   const Movieb = b.rating;
 
-  let comparison = 0;
-  if (Moviea > Movieb) {
-    comparison = 1;
-  } else if (Moviea < Movieb) {
-    comparison = -1;
-  }
-  return comparison;
-}
+//   let comparison = 0;
+//   if (Moviea > Movieb) {
+//     comparison = 1;
+//   } else if (Moviea < Movieb) {
+//     comparison = -1;
+//   }
+//   return comparison;
+// }
 
-movieData.sort(compare);
-console.log(movieData.sort(compare));
+// movieData.sort(compare);
+// console.log(movieData.sort(compare));
+
+movieData.sort((a, b) => a.rating - b.rating);
