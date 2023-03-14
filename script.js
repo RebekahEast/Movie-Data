@@ -135,8 +135,15 @@ function appending_comment(){
 // const result = movieData.sort();
 // console.log(result);
 
-if(Array.isArray(movieData)){
-    movieData.sort();
-}else{
-    console.log("Given data is not an array")
-}
+// if(Array.isArray(movieData)){
+//     movieData.sort();
+// }else{
+//     console.log("Given data is not an array")
+// }
+
+console.log(movieData);
+let sortedMovieData = movieData.sort(
+    (p1, p2) => (p1.rating < p2.rating) ? 1 : (p1.rating > p2.rating) ? -1 : 0);
+
+console.log("moviedata sorted based on descending order of their rating are:")
+console.log(sortedMovieData);
